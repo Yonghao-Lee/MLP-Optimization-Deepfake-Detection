@@ -31,7 +31,7 @@ This repository contains the implementation of **Machine Learning** models for t
 * **Comparison:** Outperformed Linear Probing (73%) and Training from Scratch (57%).
 * **Insight:** Transfer learning allowed the model to detect subtle GAN artifacts (e.g., anatomical inconsistencies) that models trained from scratch missed.
 
-## 💡 Performance Analysis
+##  Performance Analysis
 **Observation:** During the MLP training, the **Test/Validation Accuracy** was observed to be consistently higher than the **Training Accuracy** (or Training Loss was higher than Test Loss).
 
 **Explanation:** This anomaly is a known effect of **Batch Normalization (BN)**.
