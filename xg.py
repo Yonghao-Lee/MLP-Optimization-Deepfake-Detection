@@ -31,7 +31,7 @@ np.random.seed(0)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 transform = transforms.Compose([transforms.Resize((224, 224)), transforms.CenterCrop(64), transforms.ToTensor()])
 batch_size = 32
-path = 'PATH_TO_whicfaceisreal' # For example '/cs/usr/username/whichfaceisreal/'
+path = 'PATH_TO_whicfaceisreal' # For example 'data/whichfaceisreal/'
 train_loader, val_loader, test_loader = get_loaders(path, transform, batch_size)
 
 
